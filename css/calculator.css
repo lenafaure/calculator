@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#1A2980, #26D0CE);
+}
+
+.main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h3 {
+    width: 100%;
+    background-color: rgba(255,255,255, 0.9);
+    padding: 1.5em 0;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+
+table td {
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 1.5em;
+    cursor: pointer;
+}
+
+table input {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main-input input {
+    height: 100%;
+    width: 100%;
+    padding: 1.5em;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.main-input td {
+    padding: 0;
+    background-color: #fff;
+}
+
+.grey {
+    background-color: #E0D9EC;
+    transition: background 0.5s;
+}
+
+.grey:hover {
+    background-color: #c3c3c3;
+}
+
+.orange {
+    background-color: #ffab1d;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.orange:hover {
+    background-color: #fe6f13;
+}
+
+.red {
+    background-color: #fe0000;
+    transition: background 0.5s;
+}
+
+.red:hover {
+    background-color: #74c100;
+}
+
+.red input, .orange input {
+    color: #fff;
+}
+
+.lightgrey {
+    background-color: #F6F3FF;
+    transition: background 0.5s;
+}
+
+.lightgrey:hover {
+    background-color: #E0D9EC;
+    color: #eee;
+}

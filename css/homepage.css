@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    rgba(0,0,0,0.4)  url("../img/lena_bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', 'Helevetica', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #fff;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+}
+
+#intro-wrapper {
+    color: #fff;
+}
+
+#intro-wrapper h1 {
+    padding: 4em 0 0.5em;
+}
+
+#intro-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+#main-menu-wrapper {
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-menu-wrapper li {
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#main-menu-wrapper li {
+    padding: 1em;
+}
+
+#main-menu-wrapper a {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#main-menu-wrapper a:hover {
+    color: #fe2d61;
+}
+
+#main-title {
+    padding-top: 4em;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 3em;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+blockquote i {
+    padding: 0 1em;
+}
