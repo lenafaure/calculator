@@ -50,15 +50,15 @@
 
     equals.addEventListener("click", function(){
         var calculate = typedHistory.value;
-
-        if(calculate.indexOf("x") != 1){
+        console.log(calculate.indexOf("x"));
+        if(calculate.indexOf("x") != -1){
+            console.log("yes");
             calculate = calculate.replace("x", "*");
         }
-        if(calculate.indexOf(",") != 1){
+        if(calculate.indexOf(",") != -1){
             calculate = calculate.replace(",", ".");
         }
 
-        console.log(calculate);
         result.value = eval(calculate);
     });
 
