@@ -45,6 +45,17 @@ table input {
     box-sizing: border-box;
 }
 
+.history-input td {
+    background-color: #eee;
+    padding: 0.5em 1.5em;
+}
+
+.history-input input {
+    height: 100%;
+    width: 100%;
+    font-size: 80%;
+}
+
 .main-input td {
     padding: 0;
     background-color: #fff;

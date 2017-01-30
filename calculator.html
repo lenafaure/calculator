@@ -9,7 +9,6 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/normalize.css.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/calculator.css">
 
@@ -24,40 +23,45 @@
     <form name="calculator">
         <table>
             <tr class="main-input">
-                <td colspan=4 class="align-left"><input type=text name="display"></td>
+                <td colspan=4><input type=text id="result" class="align-right" name="display"></td>
+            </tr>
+            <tr class="history-input">
+                <td colspan=4><input type=text id="history" class="align-right" name="display"></td>
             </tr>
             <tr>
-                <td class="grey"><input type=button value="DEL"></td>
-                <td class="grey"><input type=button value="CLEAR"></td>
-                <td class="grey"><input type=button value="%"></td>
-                <td class="orange"><input type=button value="/"></td>
+                <td class="grey" id="btn-del"><input type=button value="DEL"></td>
+                <td class="grey" id="btn-clear"><input type=button value="CLEAR"></td>
+                <td class="grey btn-symbol"><input type=button value="%"></td>
+                <td class="orange btn-operation" ><input type=button value="/"></td>
             </tr>
             <tr>
-                <td class="lightgrey"><input type=button value="9"></td>
-                <td class="lightgrey"><input type=button value="8"></td>
-                <td class="lightgrey"><input type=button value="7"></td>
-                <td class="orange"><input type=button value="+"></td>
+                <td class="lightgrey btn-digit"><input type=button value="9"></td>
+                <td class="lightgrey btn-digit"><input type=button value="8"></td>
+                <td class="lightgrey btn-digit"><input type=button value="7"></td>
+                <td class="orange btn-operation"><input type=button value="+"></td>
             </tr>
             <tr>
-                <td class="lightgrey"><input type=button value="6"></td>
-                <td class="lightgrey"><input type=button value="5"></td>
-                <td class="lightgrey"><input type=button value="4"></td>
-                <td class="orange"><input type=button value="-"></td>
+                <td class="lightgrey btn-digit"><input type=button value="6"></td>
+                <td class="lightgrey btn-digit"><input type=button value="5"></td>
+                <td class="lightgrey btn-digit"><input type=button value="4"></td>
+                <td class="orange btn-operation"><input type=button value="-"></td>
             </tr>
             <tr>
-                <td class="lightgrey"><input type=button value="3"></td>
-                <td class="lightgrey"><input type=button value="2"></td>
-                <td class="lightgrey"><input type=button value="1"></td>
-                <td class="orange"><input type=button value="x"></td>
+                <td class="lightgrey btn-digit"><input type=button value="3"></td>
+                <td class="lightgrey btn-digit"><input type=button value="2"></td>
+                <td class="lightgrey btn-digit"><input type=button value="1"></td>
+                <td class="orange btn-operation"><input type=button value="x"></td>
             </tr>
             <tr>
-                <td colspan="2" class="lightgrey"><input type=button value="0"></td>
-                <td class="lightgrey"><input type=button value=","></td>
-                <td class="red"><input type=button value="="></td>
+                <td colspan="2" class="lightgrey btn-digit"><input type=button value="0"></td>
+                <td class="lightgrey btn-symbol"><input type=button value=","></td>
+                <td class="red" id="btn-equal"><input type=button value="="></td>
             </tr>
         </table>
     </form>
 </div>
+
+<script src="js/script.js"></script>
 </body>
 
 </html>
